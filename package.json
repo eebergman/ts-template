@@ -1,10 +1,10 @@
 {
-  "name": "ts-template",
+  "name": "ts-evercraft",
   "version": "1.0.0",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/eebergman-katas/ts-evercraft.git"
   },
   "author": "Erin Bergman <erin.e.bergman@gmail.com>",
   "license": "MIT",
