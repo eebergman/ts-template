@@ -4,7 +4,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/eebergman-katas/ts-evercraft.git"
+    "url": ""
   },
   "author": "Erin Bergman <erin.e.bergman@gmail.com>",
   "license": "MIT",

@@ -1,1 +1,1 @@
-Evercraft in Typescript
+Template project for typescript
