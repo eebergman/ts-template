@@ -8,7 +8,11 @@
         "quotemark": [
             true,
             "single"
-        ]
+        ],
+        "trailing-comma": [
+            false
+        ],
+        "no-unused-expression": false
     },
     "rulesDirectory": []
 }
