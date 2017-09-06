@@ -1,5 +1,5 @@
 {
-  "name": "ts-evercraft",
+  "name": "ts-template",
   "version": "1.0.0",
   "main": "index.js",
   "repository": {
@@ -9,17 +9,16 @@
   "author": "Erin Bergman <erin.e.bergman@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "clear; mocha -r ts-node/register \"src/**/*.spec.ts\"",
+    "test": "clear; jasmine-ts \"src/**/*.spec.ts\"",
     "test:coverage": "clear; nyc yarn test",
     "start": "ts-node index.ts"
   },
   "dependencies": {},
   "devDependencies": {
-    "@types/chai": "^3.5.2",
-    "@types/mocha": "^2.2.41",
+    "@types/jasmine": "^2.5.54",
     "@types/node": "^7.0.18",
-    "chai": "^3.5.0",
-    "mocha": "^3.3.0",
+    "jasmine": "^2.8.0",
+    "jasmine-ts": "^0.2.1",
     "nyc": "^10.3.2",
     "remap-istanbul": "^0.9.5",
     "ts-node": "^3.0.4",

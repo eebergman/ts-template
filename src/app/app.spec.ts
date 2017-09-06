@@ -1,5 +1,3 @@
-import { expect } from 'chai';
-
 import { App } from './app';
 
 describe('Inital Test', () => {
@@ -7,11 +5,11 @@ describe('Inital Test', () => {
 
   it('should pass if it can find App Class', () => {
     // tslint:disable-next-line:no-unused-expression
-    expect(App).to.exist;
+    expect(App).toBeDefined();
   });
 
   it('should find App.appExists', () => {
     // tslint:disable-next-line:no-unused-expression
-    expect(testApp.appExists).to.be.true;
+    expect(testApp.appExists).toEqual(true);
   });
 });
