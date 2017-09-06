@@ -1,11 +1,11 @@
 export class App {
-    private _appExists: boolean = true;
+    private appExists: boolean = true;
 
-    set appExists(appExists: boolean) {
-        this._appExists = appExists;
+    public setAppExists(appExists: boolean) {
+        this.appExists = appExists;
     }
 
-    get appExists() {
-        return this._appExists;
+    public getAppExists() {
+        return this.appExists;
     }
 }
