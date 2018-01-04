@@ -4,4 +4,4 @@ Template project for typescript
 
 ### Powershell
 touch "alias"
-  function touch {set-content -Path ($args[0]) -Value ($null)}
+  ```function touch {set-content -Path ($args[0]) -Value ($null)}```
